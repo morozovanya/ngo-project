@@ -1,10 +1,21 @@
-LandingPage {
+landingPage {
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
+
 }
+
+.App {
+    background-image: url(Vector\ 1.svg), url(Vector\ 3.svg);
+    background-position: center 67%, center 3000px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+}
+
 
 nav {
     margin-bottom:150px;
+    background-color: transparent;
+    
 }
 
 .logo {
@@ -21,6 +32,7 @@ nav {
     color: #8BBE49;
 }
 
+
 .about-block {
     margin-top:200px;
 }
@@ -36,13 +48,18 @@ nav {
 
 .projects-block {
     margin-top:280px;
+    
 }
 
 .beneficiary-block {
-    padding-top:300px;
-    padding-bottom:300px;
+    margin-top:500px;
+    margin-bottom:300px;
 }
 
 .projects-heading {
     color: #FC8F10;
+}
+
+footer {
+    color:white;
 }

@@ -5,6 +5,7 @@ import About from "./about.jpeg";
 import Aerial from "./AerialVehicles.png";
 import Medical from "./MedicalSupplies.png";
 import Logo from "./logo.svg";
+import logo1 from "./image6.png";
 
 
 export default function landingPage() {
@@ -34,27 +35,31 @@ export default function landingPage() {
     <button class="btn btn-outline-warning mx-3" type="button">DONATE</button>
     </ul>
   </div>
-        </nav>
-            <div className="row text-center m-5">
+    </nav>
+            
+            <div className="row m-5">
+                <div className="col text-center">
                 <h1>MILITARY AID FOR <span className="green">SOLDIERS</span>
                     <br/> IN UKRAINE</h1>
                 <p className="opacity-50">The task of the military headquarters of the Serhiy Prytula Charitable Foundation is to save as many lives as possible of the defenders of Ukraine and help them liberate the occupier</p>
-                <button className="btn btn-lg btn-warning col-2 mx-auto">DONATE NOW</button>
+                    <button className="btn btn-lg btn-warning col-2 m-auto my-5 p-3">DONATE NOW</button>
+                    </div>
             </div>
 
-            <div className="row text-center about-block p-5">
+            <div className="row text-center about-block">
                 <div className="col-6 about-text">
                     <h2 className="mb-4">WE BELIEVE IN DOING <br/> INCREDIBLE</h2>
-                    <div className="opacity-50">Ukrainian Serhiy Prytula put aside his media career to help Ukraine in its war effort. Through his foundation, Prytula has generated nearly €83 million to help the Ukrainian army acquire military equipment.
+                    <div className="opacity-50 w-75">Ukrainian Serhiy Prytula put aside his media career to help Ukraine in its war effort. Through his foundation, Prytula has generated nearly €83 million to help the Ukrainian army acquire military equipment.
                         <br /> <br/> + OVER 200 VOLUNTEERS <br/>
                         <br />We are volunteers, people who help our army to have the equipment that the state does not have the possibility to buy or does but very slowly</div>
-                    <button className="btn btn-warning mt-3">DONATE</button>
+                    <button className="btn btn-warning mt-5 p-3">DONATE</button>
                 </div>
                 <div className="col-6">
                     <img src={About} alt="about" className="about-image w-100"/>
                 </div>
             </div>
 
+            
             <div className="row projects-block">
                 <h2 className="text-center">ONGOING <span className="projects-heading">PROJECTS</span></h2>
                 <p className="text-center">Join our fight for freedom, support our projects!</p>
@@ -154,14 +159,16 @@ export default function landingPage() {
                     Donate to the fund's general accounts</p>
                 <button className="btn btn-warning col-2 mx-auto">DONATE NOW</button>
             </div>
+
+
             <footer>
                 <div className="row">
                     <div className="col-4">
-                        <img src={Logo} alt="" className="w-50"/>
+                        <img src={logo1} alt="" className="w-50"/>
                     </div>
-                    <div className="col-4">
+                    <div className="col-4 mt-3">
                         <h4>CONTACT US:</h4>
-                        <p>PHONE:</p>
+                        <p>PHONE: </p>
                     </div>
                 </div>
             </footer>
