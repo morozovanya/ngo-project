@@ -6,7 +6,7 @@ landingPage {
 
 .App {
     background-image: url(Vector\ 1.svg), url(Vector\ 3.svg);
-    background-position: center 67%, center 3000px;
+    background-position: center 54%, center 3000px;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, contain;
 }
@@ -19,13 +19,17 @@ nav {
 }
 
 .logo {
-    width: 45%;
+    width: 55%;
     padding: 15px;
 }
 
 .menu {
-    margin-top: 15px;
-    font-size: large;
+    margin-top: 25px;
+}
+
+li {
+    font-size: 21px;
+    color: black !important;
 }
 
 .green {
@@ -67,6 +71,8 @@ nav {
 
 footer {
     color:white;
+    padding-bottom: 100px;
+    padding-top: 60px;
 }
 
 .button, .button-about {
@@ -105,3 +111,35 @@ footer {
     box-shadow: 16px 18px 23px rgba(0, 0, 0, 0.25);
     width: 367px;
 }
+
+a {
+    text-decoration: none;
+    color: #FC8F10;
+}
+
+input[type=text] {
+  width: 67%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: none;
+}
+
+input[type=submit] {
+  background-color: #FC8F10;
+  padding: 10px 25px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: none;
+  margin-left: -16%;
+}
+
+.after-footer {
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+
+hr {
+    color: aliceblue;
+}
+

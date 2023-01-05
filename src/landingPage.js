@@ -20,19 +20,19 @@ export default function landingPage() {
   </button>
     <div class="collapse navbar-collapse menu" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
+      <li class="nav-item mx-3">
         <a class="nav-link" href="#">HOME <span class="sr-only"></span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item mx-3">
         <a class="nav-link" href="#">ABOUT</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item mx-3">
         <a class="nav-link" href="#">PROJECTS</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item mx-4">
         <a class="nav-link" href="#">SUPPORTERS</a>
         </li>
-    <button class="btn btn-warning mx-3 button-header" type="button">DONATE</button>
+    <button class="btn btn-warning mx-2 button-header" type="button">DONATE</button>
     </ul>
   </div>
     </nav>
@@ -162,16 +162,32 @@ export default function landingPage() {
 
 
             <footer>
-                <div className="row">
-                    <div className="col-4">
-                        <img src={logo1} alt="" className="w-50"/>
+                <div className="row mb-5">
+                    <div className="col-4 mt-4">
+                        <img src={logo1} alt="" className="w-75"/>
                     </div>
-                    <div className="col-4 mt-3">
-                        <h4>CONTACT US:</h4>
-                        <p>PHONE: </p>
+                    <div className="col-4 mt-5">
+                        <h5 className="mb-5"><strong>CONTACT INFO:</strong></h5>
+                        <p>ADDRESS: 02000, Ukraine, Kyiv, <br/>Oles Honchar st, 65 </p>
+                        <p>PHONE: +38 073 310 40 70</p>
+                        <a href="/" className="email-link">serhiy.prytula.kyiv@gmail.com</a>
+                    </div>
+                    <div className="col-4 mt-5 pt-1">
+                        <h5 className="mb-5"><strong>NEWSLETTER:</strong></h5>
+                        <p className="opacity-50">Join our fight for freedom</p>
+                        <form>
+                            <input type="text" placeholder="Email Address" />
+                            <input type="submit" value="✉️"  />
+                        </form>
                     </div>
                 </div>
+                
             </footer>
+            <hr />
+            <div className="after-footer">
+                <small className="opacity-50">Copyright ©2023 All rights reserved | This ebsite is made by </small>
+                <a href="https://github.com/morozovanya" className="opacity-50">Anna Morozova</a>
+                </div>
         </div>
     );
 }
